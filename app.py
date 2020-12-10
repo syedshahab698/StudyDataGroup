@@ -54,7 +54,7 @@ app.layout = html.Div(children = [
         children=[html.H1(className = "w-50  p-5 text-center",children = 'Portfolio Page of Study Data group!',style = {"font-size":'100px'}),
             ]
         ),
-    html.P(className = "w-100  p-2 text-center",children = 'We are Data Science enthusiast and this has website has some interesting projects we did.',style = {"font-size":'25px'})
+    html.P(className = "w-100  p-2 text-center",children = 'We are Data Science enthusiast and this website has some interesting projects we did.',style = {"font-size":'25px'})
        ]) ,
 
     html.Div(children = [
