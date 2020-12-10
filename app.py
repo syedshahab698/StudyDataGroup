@@ -131,7 +131,7 @@ def display_image(n):
 
 
 if __name__ == "__main__":
-    server.run(debug=False)
+    server.run()
 
 
 
