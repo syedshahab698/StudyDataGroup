@@ -11,9 +11,9 @@ import dash_core_components as dcc
 from dash.dependencies import Output, Input
 import flask
 
-app = flask.Flask(__name__)
+flask_app = flask.Flask(__name__)
 bootstrapcss = ['https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css']
-dash_app = dash.Dash(__name__,external_stylesheets = bootstrapcss,server=app)
+app = dash.Dash(__name__,external_stylesheets = bootstrapcss,server=flask_app)
 
 
 app.layout = html.Div(children = [
@@ -131,7 +131,7 @@ def display_image(n):
 
 
 if __name__ == "__main__":
-    app.run()
+    flask_app.run()
 
 
 
