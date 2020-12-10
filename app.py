@@ -62,7 +62,7 @@ app.layout = html.Div(children = [
     html.Section(id="slideshow", children=[
         html.Div(id="slideshow-container", children=[
             html.Div(id="image"),
-            dcc.Interval(id='interval', interval=300)
+            dcc.Interval(id='interval', interval=3000)
         ])
     ]),
 
