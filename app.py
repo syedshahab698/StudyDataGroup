@@ -14,7 +14,7 @@ import flask
 flask_app = flask.Flask(__name__)
 bootstrapcss = ['https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css']
 app = dash.Dash(__name__,external_stylesheets = bootstrapcss,server=flask_app)
-
+app.title = "STUDYDATA-GROUP"
 
 app.layout = html.Div(children = [
 
