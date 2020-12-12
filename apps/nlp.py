@@ -1,6 +1,6 @@
 import dash_html_components as html
 import dash_core_components as dcc
-from app import app
+#from app import app
 layout = html.Div([
 
 		
