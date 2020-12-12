@@ -110,7 +110,7 @@ def display_image(n):
 
 
 if __name__ == "__main__":
-    flask_app.run(debug=False,port = 9000)
+    flask_app.run()
     #ui.run()
 
 
