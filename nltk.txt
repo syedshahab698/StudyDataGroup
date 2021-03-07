@@ -1,4 +1,3 @@
 stopwords
 porter_test
-word_tokenize
 punkt
