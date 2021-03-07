@@ -1,3 +1,4 @@
 stopwords
-PorterStemmer
+porter_test
 word_tokenize
+punkt
